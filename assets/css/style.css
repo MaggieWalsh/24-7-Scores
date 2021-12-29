@@ -16,7 +16,7 @@ nav a {
 }
 
 a.navbar-brand {
-    color: #DC0813 !important;
+    color: #000 !important;
 }
 
 /* Score Table */
@@ -30,7 +30,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: 3px solid rgb(62, 62, 63);
 }
 
 thead th:nth-child(1) {
@@ -52,7 +52,7 @@ thead th:nth-child(4) {
 th,
 td {
     /* padding: 20px; */
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid rgb(62, 62, 63);
 }
 
 html {
@@ -87,11 +87,11 @@ img {
 
 /* How to change the background colour of the rows */
 tr:nth-child(even) {
-    background: #E3DEE7;
+    background: #bfbec0;
 }
 
 tr:nth-child(odd) {
-    background: #C7BDD0;
+    background: #8b8b8b;
 }
 
 /* Quote Generator */
