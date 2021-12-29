@@ -51,7 +51,7 @@ thead th:nth-child(4) {
 
 th,
 td {
-    padding: 20px;
+    /* padding: 20px; */
     border-bottom: 3px solid purple;
 }
 

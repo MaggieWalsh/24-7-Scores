@@ -47,7 +47,7 @@ let quotes = [
 ]
 
 function newQuote() {
-    var randomNumber = Math.floor(Math.random() * (quotes.length));
+    let randomNumber = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quoteGenerator').innerHTML = quotes[randomNumber];
 }
 
