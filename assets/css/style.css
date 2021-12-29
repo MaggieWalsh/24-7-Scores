@@ -107,3 +107,18 @@ button.btn.btn-secondary.mt-2.mb-3 {
     color: #F5F8Fa;
     font-weight: bold;
 }
+
+/* Club site badges */
+#club-sites {
+    background: #fff;
+    border: none;
+}
+
+/* Add hover  https://success.appen.com/hc/en-us/articles/202703155-CSS-Guidhttps://docs.emmet.io/cheat-sheet/e-to-Enlarge-Images-on-Hover */
+.thumbnail:hover {
+    position: relative;
+    width: 75px;
+    height: auto;
+    display: block;
+    z-index: 999;
+}
