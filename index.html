@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>24/7 Scores</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-center">
+            <a class="navbar-brand" href="#"><img src="" alt=""><i class="fas fa-futbol"></i> 24/7 Scores</a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <!-- <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </nav>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <p hidden><span id="stan"></span><br></p>
+                <p hidden><span id="seas"></span></p>
+                <!-- Figure out how to make this work without having to hide paragraphs -->
+
+                <table id="leagueTable">
+                    <tr>
+                        <th title="Position">#</th>
+                        <th title="Team">TEAM</th>
+                        <th title="Badge">BADGE</th>
+                        <th title="Played">P</th>
+                        <th title="Won">W</th>
+                        <th title="Lost">L</th>
+                        <th title="Draw">D</th>
+                        <th title="Goal Difference">GD</th>
+                        <th title="Points">PTS</th>
+                    </tr>
+                </table>
+                <div class="quote random text-center">
+                    <h1 class="mt-2">Funny Football Quotes:</h1>
+                    <div id="quoteGenerator"></div>
+                    <button onclick="newQuote()" type="button" class="btn btn-secondary mt-2 mb-3">New Quote</button>
+                </div>
+            </div>
+            <div class="col"><a class="twitter-timeline" data-theme="dark" href="https://twitter.com/MWmaggiewalsh/lists/1424719560301858822?ref_src=twsrc%5Etfw">A Twitter List by MWmaggiewalsh</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/quote-generator.js"></script>
+    <script src="assets/js/league-table.js"></script>
+</body>
+
+</html>

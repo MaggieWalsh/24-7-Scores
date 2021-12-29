@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap');
+
+/* Background Image */
+body {
+    background: url("../images/football-pitch1.jpg") center center / cover no-repeat fixed;
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+
+/* Navbar */
+nav a {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem !important;
+}
+
+a.navbar-brand {
+    color: #DC0813 !important;
+}
+
+/* Score Table */
+/* div.col-lg-8.col-md-8.col-sm-12 {
+    font-family: 'Roboto', sans-serif;
+    color: #F5F8Fa;
+    font-weight: bold;
+} */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+    border-bottom: 3px solid purple;
+}
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td th {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+/* How to change the background colour of the rows */
+tr:nth-child(even) {
+    background: #E3DEE7;
+}
+
+tr:nth-child(odd) {
+    background: #C7BDD0;
+}
+
+/* Quote Generator */
+.quote {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #F5F8Fa;
+    font-weight: bold;
+}
+
+button.btn.btn-secondary.mt-2.mb-3 {
+    font-family: 'Roboto', sans-serif;
+    color: #F5F8Fa;
+    font-weight: bold;
+}
