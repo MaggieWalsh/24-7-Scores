@@ -1,6 +1,4 @@
 "use strict"
-const standings = document.getElementById("stan");
-const season = document.getElementById("seas");
 const table = document.getElementById("leagueTable");
 let choice = "PL";
 
@@ -21,8 +19,6 @@ function getData() {
         .then((response) => response.json())
         .then((response) => {
             console.log(response.standings[0].table);
-            standings.textContent = standings;
-            season.textContent = season;
 
             for (let team of response.standings[0].table) {
                 addRow(team);
