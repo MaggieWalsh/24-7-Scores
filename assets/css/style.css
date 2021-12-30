@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap');
 
 /* Background Image */
-body {
+/* body {
     background: url("../images/football-pitch1.jpg") center center / cover no-repeat fixed;
     display: block;
     width: 100vw;
     height: auto;
+} */
+
+body {
+    background-color: #0C1B23;
 }
 
 /* Navbar */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+
+    background-color: #25282A !important;
+}
+
 nav a {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
@@ -16,7 +25,7 @@ nav a {
 }
 
 a.navbar-brand {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 /* Score Table */
@@ -30,7 +39,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid rgb(62, 62, 63);
+    border: 3px solid #0C1B23;
 }
 
 thead th:nth-child(1) {
@@ -52,7 +61,7 @@ thead th:nth-child(4) {
 th,
 td {
     /* padding: 20px; */
-    border-bottom: 3px solid rgb(62, 62, 63);
+    border-bottom: 3px solid #0C1B23;
 }
 
 html {
@@ -87,11 +96,11 @@ img {
 
 /* How to change the background colour of the rows */
 tr:nth-child(even) {
-    background: #bfbec0;
+    background: #92DAEC;
 }
 
 tr:nth-child(odd) {
-    background: #8b8b8b;
+    background: #244150;
 }
 
 /* Quote Generator */
