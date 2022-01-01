@@ -18,7 +18,7 @@ function getData() {
     fetch(apiUrl, requestOptions)
         .then((response) => response.json())
         .then((response) => {
-            console.log(response.standings[0].table);
+
 
             for (let team of response.standings[0].table) {
                 addRow(team);
