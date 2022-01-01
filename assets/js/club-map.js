@@ -2,9 +2,10 @@
 let map;
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
+    const map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: 53.430, lng: -2.961 },
         zoom: 12,
+        // Add night mode styling from google maps docs, maybe later change to match site colours
         styles: [
             { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
             { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
@@ -86,4 +87,12 @@ function initMap() {
             },
         ],
     });
+    const image =
+        "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+    const beachMarker = new google.maps.Marker({
+        position: { lat: 53.430, lng: -2.961 },
+        map,
+        icon: image,
+    });
+
 }
