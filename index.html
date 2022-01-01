@@ -59,10 +59,10 @@
         <td class="thumbnail" id="club-sites"><a href="https://www.whufc.com/" target="_blank" rel="noopener"><img src="https://crests.football-data.org/563.svg"></a></td>
         <td class="thumbnail" id="club-sites"><a href="https://www.wolves.co.uk/" target="_blank" rel="noopener"><img src="https://crests.football-data.org/76.svg"></a></td>
     </table>
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12">
-                <table id="leagueTable">
+                <table id="leagueTable" class="mb-5">
                     <tr>
                         <th title="Position">#</th>
                         <th colspan="2" title="Team">TEAM</th>
@@ -75,22 +75,23 @@
                         <th title="Points">PTS</th>
                     </tr>
                 </table>
-                <div class="quote random text-center">
+                <div class="quote random text-center mb-5">
                     <h1 class="mt-2">Funny Football Quotes:</h1>
                     <div id="quoteGenerator"></div>
                     <button onclick="newQuote()" type="button" class="btn btn-secondary mt-2 mb-3">New Quote</button>
                 </div>
+                <div class="mb-5" id="map"></div>
             </div>
-            <div class="col"><a class="twitter-timeline" data-theme="dark" href="https://twitter.com/MWmaggiewalsh/lists/1424719560301858822?ref_src=twsrc%5Etfw" data-tweet-limit="3">A Twitter List by MWmaggiewalsh</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!-- Add media query for 767 and under to stop twitter and map overlapping - e.g. margin top -->
+            <div class="col-lg-4 col-md-4 col-sm-12"><a class="twitter-timeline" data-theme="dark" href="https://twitter.com/MWmaggiewalsh/lists/1424719560301858822?ref_src=twsrc%5Etfw" data-tweet-limit="4">A Twitter List by MWmaggiewalsh</a>
             </div>
         </div>
     </div>
-    <div class="container mt-5 mb-5" id="map"></div>
+
 
 
     <footer></footer>
-
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
     <script src="assets/js/quote-generator.js"></script>
