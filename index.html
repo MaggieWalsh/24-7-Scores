@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <title>24/7 Scores</title>
 </head>
 
@@ -85,14 +86,17 @@
             </div>
         </div>
     </div>
-
+    <div class="container mt-5 mb-5" id="map"></div>
 
 
     <footer></footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
     <script src="assets/js/quote-generator.js"></script>
     <script src="assets/js/league-table.js"></script>
+    <script src="assets/js/club-map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQj9JUSm1hr2bI7BQLC3pEwq8aZLhP2Fs&callback=initMap" async defer></script>
 </body>
 
 </html>
