@@ -111,83 +111,83 @@ function initMap() {
 
     addMarker({
         coords: { lat: 51.554, lng: -0.108 },
-        content: '<h1>Arsenal</h1>'
+        content: '<h4>Arsenal</h4>'
     });
     addMarker({
         coords: { lat: 52.509, lng: -1.884 },
-        content: '<h1>Aston Villa</h1>'
+        content: '<h4>Aston Villa</h4>'
     });
     addMarker({
         coords: { lat: 51.490, lng: -0.289 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Brentford</h4>'
     });
     addMarker({
         coords: { lat: 50.861, lng: -0.083 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Brighton & Hove Albion</h4>'
     });
     addMarker({
         coords: { lat: 53.788, lng: -2.230 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Burnley</h4>'
     });
     addMarker({
         coords: { lat: 51.481, lng: -0.191 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Chelsea</h4>'
     });
     addMarker({
         coords: { lat: 51.398, lng: -0.086 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Crystal Palace</h4>'
     });
     addMarker({
         coords: { lat: 53.438, lng: -2.966 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Everton</h4>'
     });
     addMarker({
         coords: { lat: 53.777, lng: -1.572 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Leeds</h4>'
     });
     addMarker({
         coords: { lat: 52.620, lng: -1.142 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Leceister</h4>'
     });
     addMarker({
         coords: { lat: 53.430, lng: -2.960 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Liverpool</h4><p>Liverpool FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.483, lng: -2.200 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Man City</h4>'
     });
     addMarker({
         coords: { lat: 53.463, lng: -2.291 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Man Utd</h4>'
     });
     addMarker({
         coords: { lat: 54.975, lng: -1.621 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Newcastle</h4>'
     });
     addMarker({
         coords: { lat: 52.622, lng: 1.309 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Norwich</h4>'
     });
     addMarker({
         coords: { lat: 50.905, lng: -1.391 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Southampton</h4>'
     });
     addMarker({
         coords: { lat: 51.604, lng: -0.066 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Tottenham</h4>'
     });
     addMarker({
         coords: { lat: 51.649, lng: -0.401 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Watford</h4>'
     });
     addMarker({
         coords: { lat: 51.538, lng: -0.016 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Westham</h4>'
     });
     addMarker({
         coords: { lat: 52.590, lng: -2.130 },
-        content: '<h1>Brentford</h1>'
+        content: '<h4>Wolves</h4>'
     });
 
 
