@@ -106,7 +106,7 @@ function initMap() {
     addMarker({ coords: { lat: 53.483, lng: -2.200 } });
     addMarker({ coords: { lat: 53.463, lng: -2.291 } });
     addMarker({ coords: { lat: 54.975, lng: -1.621 } });
-    addMarker({ coords: { lat: 52.622, lng: -1.309 } });
+    addMarker({ coords: { lat: 52.622, lng: 1.309 } });
     addMarker({ coords: { lat: 50.905, lng: -1.391 } });
     addMarker({ coords: { lat: 51.604, lng: -0.066 } });
     addMarker({ coords: { lat: 51.649, lng: -0.401 } });
