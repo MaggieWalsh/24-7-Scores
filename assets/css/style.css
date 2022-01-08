@@ -174,9 +174,9 @@ body {
 
 /* Loader spinner https://www.w3schools.com/howto/howto_css_loader.asp */
 .loader {
-    border: 16px solid #f3f3f3;
+    border: 16px solid #C29F5F;
     /* Light grey */
-    border-top: 16px solid #3498db;
+    border-top: 16px solid #2A3D5E;
     /* Blue */
     border-radius: 50%;
     width: 120px;
