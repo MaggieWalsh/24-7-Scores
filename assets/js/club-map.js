@@ -4,7 +4,7 @@
 function initMap() {
     // Map options
     const options = {
-        zoom: 12,
+        zoom: 6,
         center: { lat: 53.430, lng: -2.961 },
         styles: [
             { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
