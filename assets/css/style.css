@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap');
 
-
-
-/* @import url("https://use.typekit.net/kka1ygx.css"); */
-
-/* Background Image */
-/* body {
-    background: url("../images/football-pitch1.jpg") center center / cover no-repeat fixed;
-    display: block;
-    width: 100vw;
-    height: auto;
-} */
-
 body {
     background-color: #D4D4D4;
 }
@@ -31,13 +19,6 @@ nav a {
 a.navbar-brand {
     color: #C29F5F !important;
 }
-
-/* Score Table */
-/* div.col-lg-8.col-md-8.col-sm-12 {
-    font-family: 'Roboto', sans-serif;
-    color: #F5F8Fa;
-    font-weight: bold;
-} */
 
 table {
     width: 100%;
@@ -63,7 +44,6 @@ thead th:nth-child(4) {
 
 th,
 td {
-    /* padding: 20px; */
     border-bottom: 3px solid #292F33;
 }
 
@@ -74,7 +54,6 @@ html {
 thead th,
 tfoot th {
     font-family: 'Rock Salt', cursive;
-
 }
 
 th {
@@ -91,12 +70,8 @@ tbody td th {
     text-align: center;
 }
 
-/* tfoot th {
-    text-align: right;
-} */
-
 img {
-    width: 40px;
+    width: 2.5rem;
     height: auto;
 }
 
@@ -153,21 +128,17 @@ img:hover {
 }
 
 /* Add media query to reduce the size of the badges below a certain screen size */
-
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+/* Map */
 #map {
     height: 50%;
 }
 
-/* Optional: Makes the sample page fill the window. */
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
-
 
 /* Loader spinner https://www.w3schools.com/howto/howto_css_loader.asp */
 .loader {
