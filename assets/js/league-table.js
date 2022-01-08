@@ -11,7 +11,7 @@ let requestOptions = {
 };
 
 const apiUrl =
-    `https://api.football-data.org/v2/competitions/PL/standings`;
+    'https://api.football-data.org/v2/competitions/PL/standings';
 
 function getData() {
     fetch(apiUrl, requestOptions)
