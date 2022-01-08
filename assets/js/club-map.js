@@ -1,5 +1,5 @@
 "use strict"
-// let map;
+
 
 function initMap() {
     // Map options
@@ -88,27 +88,10 @@ function initMap() {
         ],
     }
 
-    /*
-         // New marker
-         const marker = new google.maps.Marker({
-             position: { lat: 53.430, lng: -2.961 },
-             map,
-         });
-     
-         const infoWindow = new google.maps.InfoWindow({
-             content: '<h4>Anfield Stadium</h4>'
-         });
-     
-         marker.addListener('click', function () {
-             infoWindow.open(map, marker);
-         });
-         */
-
-
     // New map
     const map = new google.maps.Map(document.getElementById("map"), options);
 
-
+    // Marker locations
     addMarker({
         coords: { lat: 51.554, lng: -0.108 },
         content: '<h4>Arsenal</h4>'
@@ -198,12 +181,12 @@ function initMap() {
             position: props.coords,
             map: map,
         });
-
+        // Add infoWindow
         if (props.content) {
             const infoWindow = new google.maps.InfoWindow({
                 content: props.content
             });
-
+            // Add listener to open infoWindow once clicked
             marker.addListener('click', function () {
                 infoWindow.open(map, marker);
             });
