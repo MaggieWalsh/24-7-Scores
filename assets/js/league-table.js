@@ -1,6 +1,5 @@
 "use strict"
 const table = document.getElementById("leagueTable");
-let choice = "PL";
 
 let myHeaders = new Headers();
 myHeaders.append("X-Auth-Token", "cf95d946bbcd4b9fa296bf4682767907");
@@ -12,7 +11,7 @@ let requestOptions = {
 };
 
 const apiUrl =
-    `https://api.football-data.org/v2/competitions/${choice}/standings`;
+    `https://api.football-data.org/v2/competitions/PL/standings`;
 
 function getData() {
     fetch(apiUrl, requestOptions)
