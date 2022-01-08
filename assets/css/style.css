@@ -164,3 +164,42 @@ body {
 .hide {
     display: none;
 }
+
+/* Footer */
+
+a {
+    color: #C29F5F;
+}
+
+footer {
+    color: #C29F5F;
+    padding: 1%;
+    bottom: 0;
+}
+
+/* Trasparent overlay to keep same convention for colors across the website instead of rgba */
+
+div.text-center.p-4 {
+    background-color: #00000010;
+}
+
+/* https://stackoverflow.com/questions/23201134/transparent-argb-hex-value#:~:text=Transparency%20is%20controlled%20by%20the,mixed%20with%20the%20background%20color. */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0 1%;
+    padding: 0 2%;
+    color: #C29F5F;
+}
+
+.email-link {
+    color: #C29F5F;
+}
+
+.bg-light {
+    background-color: #212E41 !important;
+}
