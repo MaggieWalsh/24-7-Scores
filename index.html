@@ -44,7 +44,8 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-12">
-                <table id="leagueTable" class="mb-5">
+                <div id="loader" class="loader hide"></div>
+                <table id="leagueTable" class="mb-5 hide">
                     <tr>
                         <th title="Position">#</th>
                         <th title="Team">TEAM</th>
@@ -56,6 +57,7 @@
                         <th title="Points">PTS</th>
                     </tr>
                 </table>
+                <h1 id="error" class="hide">Fuck off</h1>
                 <div class="quote random text-center mb-5">
                     <h1 class="mt-2">Funny Football Quotes:</h1>
                     <div id="quoteGenerator"></div>

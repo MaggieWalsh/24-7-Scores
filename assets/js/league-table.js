@@ -1,5 +1,7 @@
 "use strict"
 const table = document.getElementById("leagueTable");
+const loader = document.getElementById("loader");
+const error = document.getElementById("error");
 
 let myHeaders = new Headers();
 myHeaders.append("X-Auth-Token", "cf95d946bbcd4b9fa296bf4682767907");
@@ -14,14 +16,19 @@ const apiUrl =
     'https://api.football-data.org/v2/competitions/PL/standings';
 
 function getData() {
+    loader.classList.remove("hide")
     fetch(apiUrl, requestOptions)
         .then((response) => response.json())
         .then((response) => {
-
-
             for (let team of response.standings[0].table) {
                 addRow(team);
             }
+            loader.classList.add("hide")
+            table.classList.remove("hide")
+        }).catch((e) => {
+            console.log(e)
+            loader.classList.add("hide")
+            error.classList.remove("hide")
         });
 }
 getData();
