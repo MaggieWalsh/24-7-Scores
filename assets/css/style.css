@@ -129,6 +129,7 @@ tr:nth-child(odd) {
     background-color: #2A3D5E;
     color: #C29F5F;
     font-weight: bold;
+    border: 3px solid #292F33;
 }
 
 button.btn.btn-secondary.mt-2.mb-3 {
