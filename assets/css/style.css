@@ -146,13 +146,10 @@ button.btn.btn-secondary.mt-2.mb-3 {
     border: none;
 }
 
-/* Add hover  https://success.appen.com/hc/en-us/articles/202703155-CSS-Guidhttps://docs.emmet.io/cheat-sheet/e-to-Enlarge-Images-on-Hover */
-.thumbnail:hover {
-    position: relative;
-    width: 75px;
-    height: auto;
-    display: block;
-    z-index: 999;
+/* Add hover https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+img:hover {
+    transform: scale(1.5);
+    transition: .5s;
 }
 
 /* Add media query to reduce the size of the badges below a certain screen size */
