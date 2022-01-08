@@ -101,8 +101,13 @@ img {
 }
 
 p {
+    color: #C29F5F;
     font-size: 12px;
     margin: 0;
+}
+
+#leagueTable {
+    color: #A37F3E;
 }
 
 div.col-lg-8.col-md-8.col-sm-12 {
@@ -111,11 +116,11 @@ div.col-lg-8.col-md-8.col-sm-12 {
 
 /* How to change the background colour of the rows */
 tr:nth-child(even) {
-    background: #D4D4D4;
+    background: #374C6D;
 }
 
 tr:nth-child(odd) {
-    background: #BDBBBC;
+    background: #293951;
 }
 
 /* Quote Generator */
