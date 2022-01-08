@@ -40,7 +40,6 @@ a.navbar-brand {
 } */
 
 table {
-    table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
     border: 3px solid #292F33;
