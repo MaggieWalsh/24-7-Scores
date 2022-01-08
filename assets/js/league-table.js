@@ -40,11 +40,6 @@ function addRow(item) {
     element2.textContent = item.team.name;
     cell2.appendChild(element2);
 
-    // let cell3 = row.insertCell(2);
-    // let element3 = document.createElement("img");
-    // element3.src = item.team.crestUrl;
-    // cell3.appendChild(element3);
-
     let cell3 = row.insertCell(2);
     let element3 = document.createElement("p");
     element3.textContent = item.playedGames;
