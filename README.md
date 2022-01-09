@@ -99,7 +99,12 @@ I wanted to create a website for fans of the English Premier League, where they 
           ![Logo](docs/logo.png)
 
         * Content - At the top of the site there is a table of all the premier league teams. They are identified by their club badges. Each badge has a link that opens a new tab with the relevant teams home website.
+
           ![Club Sites](docs/club-sites.png)
+
+          There is a table with the current league standings. This contains the team name, position, games played, games won, games lost, games drawn, goal difference and points.
+
+          ![League Table](docs/league-table.png)
         * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
 
           ![Footer](docs/footer.png)
