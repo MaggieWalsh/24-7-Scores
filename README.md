@@ -102,28 +102,45 @@ I wanted to create a website for fans of the English Premier League, where they 
 
           ![Club Sites](docs/club-sites.png)
 
-          There is a table with the current league standings. This contains the team name, position, games played, games won, games lost, games drawn, goal difference and points.
+          Next there is a table with the current league standings. This contains the team name, position, games played, games won, games lost, games drawn, goal difference and points.
 
           ![League Table](docs/league-table.png)
-        * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
+
+          Below this there is a funny football quote generator. When you click 'New Quote', a new quote is generated.
+
+          ![Funny Quotes](docs/quotes.png)
+
+          Below this is a map which shows all the locations of the premier league stadiums. When you click on a marker an information window pops open to give a brief description.
+
+          ![Map](docs/map.png)
+
+          To the right is an embedded Twitter feed containing top Premier League Twitter accounts, from clubs to reporters and players to fan.
+
+          ![Twitter Feed](docs/twitter.png)
+
+        * Footer - The footer contains the website name and a brief description of the purpose of the website. 
 
           ![Footer](docs/footer.png)
 
     * ## Features to be Implemented in Future
-      * 3D Room Visualiser - To be able to provide clients with visual representation of the projected finished look.
-      * Furniture Shop - To allow clients to browse the furniture available, ahead of an appointment or to buy direct.
+      * Ability to choose other football leagues around the world i.e La Liga, Ligue 1, Bundesliga etc.
+      * Table with upcoming matches.
+      * Form from last five matches added to league table.
+      * Player stats.
+      * Football top news stories API.
+      * Functionality to login and remember your preferences.
   * ## Technologies Used
     * ## Languages
       * [HTML5](https://en.wikipedia.org/wiki/HTML5)
       * [CSS](https://en.wikipedia.org/wiki/CSS)
+      * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
     * ## Frameworks and Libraries
       * [Bootstrap v.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) (which uses JavaScript)
       * [!bcdn5](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) extension
       * [Google Fonts](https://fonts.google.com/)
       * [Font Awesome](https://fontawesome.com/)
-      * [Coolors.co](https://coolors.co)
+      * [Adobe](https://www.adobe.com/ie/creativecloud.html)
       * [Favicon.io](https://favicon.io)
-      * [Unsplash](https://unsplash.com/)
       * [Balsamiq](https://balsamiq.com/)
       * [VS Code](https://code.visualstudio.com/)
       * [GitHub](https://github.com/)
