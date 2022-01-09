@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Antonio
+- Font Author: Copyright 2013 The Antonio Project Authors (https://github.com/googlefonts/antonioFont)
+- Font Source: http://fonts.gstatic.com/s/antonio/v1/gNMbW3NwSYq_9WD34ngK5F8vR8T0PVyv9htIY2DwSXlM.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
