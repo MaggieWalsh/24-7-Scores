@@ -50,7 +50,7 @@ I wanted to create a website for fans of the English Premier League, where they 
 
     * ## Research Analysis
 
-      People appreciate not having to jumpt between multiple sites to get different information relating to their interests. One place to get all the latest updates is what people are looking for. 
+      People appreciate not having to jump between multiple sites to get different information relating to their interests. One place to get all the latest updates is what people are looking for. 
 
   * ## Persona and Their Goals
 
@@ -68,8 +68,7 @@ I wanted to create a website for fans of the English Premier League, where they 
 
   * ## Owner Goals
     1. Increase traffic to the site.
-    2. Attract new visitors.
-    3. Keep existing visitors interested.
+    2. Keep existing visitors interested.
     3. Become a go-to website for football updates.
   * ## User Stories
     1. As a user visiting the site for the first time, I want to navigate the site intuitively.
@@ -94,18 +93,13 @@ I wanted to create a website for fans of the English Premier League, where they 
       I decided on a single-page website because I felt like all the components flow nicely into eachother. I opted for a larger than 'standard' footer as I feel like a more substantial footer looks better.
   * ## Features
     * ## Existing Features
-      * The website has the following features from left to right, top to bottom :
+      * The website has the following features from top to bottom :
         * Logo - 24/7 Scores - Clean font. Simple and descriptive about the purpose of the website.
 
           ![Logo](docs/logo.png)
 
-        * Navbar - The heart of the website. This allows users to intuitively navigate the site. The current page that the user is on is highlighted as active, so that the user always knows where they are. It contains important information that a user would expect to find in the navbar. Including a 'call to action' form on the contact page.
-
-          The navbar is designed to toggle from the hamburger navigation icon to a standard menu once the screen size goes past that of 991px wide. This is to satisfy the mobile first criteria of this project.
-
-          ![Navbar](docs/navbar.png)
-
-        * Content - Each page has details relating to the header of said page.
+        * Content - At the top of the site there is a table of all the premier league teams. They are identified by their club badges. Each badge has a link that opens a new tab with the relevant teams home website.
+          ![Club Sites](docs/club-sites.png)
         * Footer - The footer contains the company name, opening days and times, contact email and phone numbers for the offices in Dublin and London, social media links, that open in a new tab and a hyperlink to the sites home page. 
 
           ![Footer](docs/footer.png)
