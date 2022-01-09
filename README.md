@@ -80,7 +80,7 @@ I wanted to create a website for fans of the English Premier League, where they 
     6. As a user, I want to find something with a bit of humour.
     7. As a user, I want to be able to access your social media accounts.
   * ## Wireframes
-    * Wireframe available [here.](docs/desktop-wireframes.pdf)
+    * Wireframe available [here.](docs/desktop-wireframe.pdf)
   * ## Design
     * ## Colour Scheme
       I wanted a rich colour palette for this website. I went with a palette inspired by an old football kit from the noughties. 
