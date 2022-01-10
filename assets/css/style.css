@@ -4,6 +4,10 @@ body {
     background-color: #D4D4D4;
 }
 
+p {
+    font-size: 16px !important;
+}
+
 /* Navbar */
 nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 
@@ -58,7 +62,7 @@ tfoot th {
 
 th {
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 td {
