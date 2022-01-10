@@ -228,6 +228,7 @@ div.text-center.p-4 {
 
 }
 
+/* Fixes map from overflowing footer */
 .col-lg-8 {
     display: grid;
     grid-template-rows: 1fr 0.3fr 1fr;
