@@ -130,7 +130,7 @@ img:hover {
 /* Add media query to reduce the size of the badges below a certain screen size */
 /* Map */
 #map {
-    height: 50%;
+    height: 100%;
 }
 
 html,
@@ -172,6 +172,7 @@ a {
 }
 
 footer {
+    margin-top: 2.5rem;
     color: #C29F5F;
     padding: 1%;
     bottom: 0;
@@ -212,7 +213,7 @@ div.text-center.p-4 {
 
     div.col-lg-4.col-md-4.col-sm-11 {
 
-        margin-top: 25rem;
+        margin-top: 2.5rem;
         margin-bottom: 2.5rem;
 
     }
@@ -225,4 +226,9 @@ div.text-center.p-4 {
         height: auto;
     }
 
+}
+
+.col-lg-8 {
+    display: grid;
+    grid-template-rows: 1fr 0.3fr 1fr;
 }
