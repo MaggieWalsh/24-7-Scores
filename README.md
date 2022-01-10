@@ -135,7 +135,7 @@ I wanted to create a website for fans of the English Premier League, where they 
       * [CSS](https://en.wikipedia.org/wiki/CSS)
       * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
     * ## Frameworks and Libraries
-      * [Bootstrap v.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) (which uses JavaScript)
+      * [Bootstrap v.5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
       * [!bcdn5](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) extension
       * [Google Fonts](https://fonts.google.com/)
       * [Font Awesome](https://fontawesome.com/)
