@@ -203,3 +203,11 @@ div.text-center.p-4 {
 .bg-light {
     background-color: #212E41 !important;
 }
+
+@media (max-width: 767px) {
+    #club-sites {
+        display: none;
+    }
+
+
+}
