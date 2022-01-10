@@ -204,10 +204,25 @@ div.text-center.p-4 {
     background-color: #212E41 !important;
 }
 
+/* Removes club site table on small screens */
 @media (max-width: 767px) {
     #club-sites {
         display: none;
     }
 
+    div.col-lg-4.col-md-4.col-sm-11 {
+
+        margin-top: 25rem;
+        margin-bottom: 2.5rem;
+
+    }
+}
+
+/* Adjusts club site images on medium screens */
+@media (min-width: 768px) and (max-width: 877px) {
+    img {
+        width: 1.5rem;
+        height: auto;
+    }
 
 }
