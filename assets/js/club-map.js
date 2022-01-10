@@ -97,83 +97,83 @@ function initMap() {
     // Marker locations
     addMarker({
         coords: { lat: 51.554, lng: -0.108 },
-        content: '<h4>Arsenal</h4>'
+        content: '<h4>The Emirates</h4><p>Arsenal FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 52.509, lng: -1.884 },
-        content: '<h4>Aston Villa</h4>'
+        content: '<h4>Villa Park</h4><p>Aston Villa FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 51.490, lng: -0.289 },
-        content: '<h4>Brentford</h4>'
+        content: '<h4>Brentford Community</h4><p>Brentford FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 50.861, lng: -0.083 },
-        content: '<h4>Brighton & Hove Albion</h4>'
+        content: '<h4>Amex</h4><p>Brighton & Hove Albion FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.788, lng: -2.230 },
-        content: '<h4>Burnley</h4>'
+        content: '<h4>Turfmoor</h4><p>Burnley FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 51.481, lng: -0.191 },
-        content: '<h4>Chelsea</h4>'
+        content: '<h4>Stamford Bridge</h4><p>Chelsea FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 51.398, lng: -0.086 },
-        content: '<h4>Crystal Palace</h4>'
+        content: '<h4>Selhurst Park</h4><p>Crystal Palace FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.438, lng: -2.966 },
-        content: '<h4>Everton</h4>'
+        content: '<h4>Goodison Park</h4><p>Everton FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.777, lng: -1.572 },
-        content: '<h4>Leeds</h4>'
+        content: '<h4>Elland Road</h4><p>Leeds FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 52.620, lng: -1.142 },
-        content: '<h4>Leceister</h4>'
+        content: '<h4>King Power Stadium</h4><p>Leceister FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.430, lng: -2.960 },
-        content: '<h4>Liverpool</h4><p>Liverpool FC Stadium</p>'
+        content: '<h4>Anfield</h4><p>Liverpool FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.483, lng: -2.200 },
-        content: '<h4>Man City</h4>'
+        content: '<h4>The Etihad</h4><p>Manchester City FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 53.463, lng: -2.291 },
-        content: '<h4>Man Utd</h4>'
+        content: '<h4>Old Trafford</h4><p>Manchester United FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 54.975, lng: -1.621 },
-        content: '<h4>Newcastle</h4>'
+        content: "<h4>St. James' Park</h4><p>Newcastle FC Stadium</p>"
     });
     addMarker({
         coords: { lat: 52.622, lng: 1.309 },
-        content: '<h4>Norwich</h4>'
+        content: '<h4>Carrow Road</h4><p>Norwich FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 50.905, lng: -1.391 },
-        content: '<h4>Southampton</h4>'
+        content: "<h4>St. Mary's</h4><p>Southampton FC Stadium</p>"
     });
     addMarker({
         coords: { lat: 51.604, lng: -0.066 },
-        content: '<h4>Tottenham</h4>'
+        content: '<h4>Tottenham Hotspur Stadium</h4><p>Tottenham Hotspur FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 51.649, lng: -0.401 },
-        content: '<h4>Watford</h4>'
+        content: '<h4>Vicarage Road</h4><p>Watford FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 51.538, lng: -0.016 },
-        content: '<h4>Westham</h4>'
+        content: '<h4>The London Stadium</h4><p>West Ham FC Stadium</p>'
     });
     addMarker({
         coords: { lat: 52.590, lng: -2.130 },
-        content: '<h4>Wolves</h4>'
+        content: '<h4>Molineux</h4><p>Wolverhampton Wanderers FC Stadium</p>'
     });
 
 
