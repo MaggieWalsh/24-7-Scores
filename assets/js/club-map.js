@@ -1,4 +1,6 @@
-"use strict"
+/*jshint esversion: 6 */
+/*jshint globalstrict: true*/
+"use strict";
 
 
 function initMap() {
@@ -86,7 +88,8 @@ function initMap() {
                 stylers: [{ color: "#17263c" }],
             },
         ],
-    }
+    };
+
 
     // New map
     const map = new google.maps.Map(document.getElementById("map"), options);
@@ -195,3 +198,4 @@ function initMap() {
     }
 
 }
+

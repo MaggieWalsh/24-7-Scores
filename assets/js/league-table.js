@@ -1,4 +1,6 @@
-"use strict"
+/*jshint esversion: 6 */
+/*jshint globalstrict: true*/
+"use strict";
 const table = document.getElementById("leagueTable");
 const loader = document.getElementById("loader");
 const error = document.getElementById("error");
@@ -16,19 +18,19 @@ const apiUrl =
     'https://api.football-data.org/v2/competitions/PL/standings';
 
 function getData() {
-    loader.classList.remove("hide")
+    loader.classList.remove("hide");
     fetch(apiUrl, requestOptions)
         .then((response) => response.json())
         .then((response) => {
             for (let team of response.standings[0].table) {
                 addRow(team);
             }
-            loader.classList.add("hide")
-            table.classList.remove("hide")
+            loader.classList.add("hide");
+            table.classList.remove("hide");
         }).catch((e) => {
-            console.log(e)
-            loader.classList.add("hide")
-            error.classList.remove("hide")
+            console.log(e);
+            loader.classList.add("hide");
+            error.classList.remove("hide");
         });
 }
 getData();

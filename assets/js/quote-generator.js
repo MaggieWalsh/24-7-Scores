@@ -1,4 +1,6 @@
-"use strict"
+/*jshint esversion: 6 */
+/*jshint globalstrict: true*/
+"use strict";
 let quotes = [
     `"It was like being in a foreign country" - Ian Rush when asked how was it to play for Juventus and the difficulties adjusting to life in Italy.`,
     `"I'm a firm believer if you score one goal, then the other team have to score two to win" - Howard Wilkinson.`,
@@ -18,7 +20,7 @@ let quotes = [
     `"And now that the formalities are over, we’ll have the national anthems." - Brian Moore.`,
     `"He’s 21 this year. Last year he was 30." - David Coleman.`,
     `"Brazil... they’re so good it’s like they are running around the pitch playing with themselves." - John Motson.`,
-    `"t’s sometimes easier to defend a one-goal lead than a two-goal lead." - Mark Lawrenson.`,
+    `"It’s sometimes easier to defend a one-goal lead than a two-goal lead." - Mark Lawrenson.`,
     `"If Glenn Hoddle had been any other nationality, he would have had 70 or 80 caps for England." - John Barnes.`,
     `"Not only has he shown Junior Lewis the red card, but he’s sent him off." - Chris Kamara.`,
     `"The Belgians will play like their fellow Scandinavians, Denmark and Sweden." - Andy Townsend.`,

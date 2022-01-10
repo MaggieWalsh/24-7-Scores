@@ -116,7 +116,7 @@ button.btn.btn-secondary.mt-2.mb-3 {
 }
 
 /* Club site badges */
-#club-sites {
+.club-sites {
     background: #fff;
     border: none;
 }
@@ -207,7 +207,7 @@ div.text-center.p-4 {
 
 /* Removes club site table on small screens */
 @media (max-width: 767px) {
-    #club-sites {
+    .club-sites {
         display: none;
     }
 
