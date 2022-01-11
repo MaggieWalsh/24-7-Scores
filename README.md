@@ -197,7 +197,7 @@ I wanted to create a website for fans of the English Premier League, where they 
 
       * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
 
-      * My map and Twitter feed were overlapping eachother. This resolved it 
+      * My map and Twitter feed were overlapping eachother. This resolved it:
       ```
         .col-lg-8 {
         display: grid; 
@@ -206,7 +206,9 @@ I wanted to create a website for fans of the English Premier League, where they 
         
     ![Map](docs/map-twitter-overlap.png)
 
-      * As the hero image takes up the entire content above the fold, I was worried that users to the site might not realise that there was more content upon scrolling. This led to me looking for a scroll indicator that I could apply to the desktop version. I found that on another CI students page, Fiachra Holland, who I have credited in my code and further down the readme.
+      * The table was rendering strangely. In order to fix this I removed the fixed position which allowed the data to fit into the table correctly.
+
+    ![Table](docs/table.png)
 
       * In order to improve accessibility, I added *aria labels* to all non-text links.
 
