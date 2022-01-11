@@ -192,6 +192,10 @@ I wanted to create a website for fans of the English Premier League, where they 
       * [W3C - NU HTML Checker](https://validator.w3.org/nu/)
 
       * [JSHint - HTML Validator](https://jshint.com/)
+
+      * Lighthouse Reports
+       ![Mobile](docs/mobile.png)
+       ![Desktop](docs/desktop.png)
     * ## Resolved Bugs
       * I originally started this project with another [repository](https://github.com/MaggieWalsh/24-7_Scores). An error occured which resulted in me having to merge, and pull despite never intending to. The matter was unresolveable given the timeframe and my knowledge restrictions. I made the decision to begin again, with a new repository. I will leave the original unedited in order for it to be checked.
 
