@@ -1,5 +1,3 @@
-/*jshint esversion: 6 */
-/*jshint globalstrict: true*/
 "use strict";
 const table = document.getElementById("leagueTable");
 const loader = document.getElementById("loader");
@@ -17,6 +15,10 @@ let requestOptions = {
 const apiUrl =
     'https://api.football-data.org/v2/competitions/PL/standings';
 
+
+/**
+ * Retrieves data from API
+ */
 function getData() {
     loader.classList.remove("hide");
     fetch(apiUrl, requestOptions)
@@ -35,6 +37,9 @@ function getData() {
 }
 getData();
 
+/**
+ * Uses retrieved data to create table
+ */
 function addRow(item) {
     let rowCount = table.rows.length;
     let row = table.insertRow(rowCount);

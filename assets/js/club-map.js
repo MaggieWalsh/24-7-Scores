@@ -3,6 +3,9 @@
 "use strict";
 
 
+/**
+ * Embeds Google map
+ */
 function initMap() {
     // Map options
     const options = {
@@ -177,7 +180,10 @@ function initMap() {
     });
 
 
-
+    /**
+     * Adds markers & infowindows to embedded map
+     * @param {object} props maps object of coords & content
+     */
     // Add marker function
     function addMarker(props) {
         const marker = new google.maps.Marker({

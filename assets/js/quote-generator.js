@@ -1,7 +1,5 @@
-/*jshint esversion: 6 */
-/*jshint globalstrict: true*/
 "use strict";
-let quotes = [
+const quotes = [
     `"It was like being in a foreign country" - Ian Rush when asked how was it to play for Juventus and the difficulties adjusting to life in Italy.`,
     `"I'm a firm believer if you score one goal, then the other team have to score two to win" - Howard Wilkinson.`,
     `"Well, Clive, it's all about the two M's... movement and positioning." - Ron Atkinson.`,
@@ -46,12 +44,21 @@ let quotes = [
     `"I don't think there is anybody bigger or smaller than Maradona." - Kevin Keegan.`,
     `"What will you do when you leave football, Jack, will you stay in football?" - Stuart Hall.`,
     `"A contract on a piece of paper, saying you want to leave, is like a piece of paper saying you want to leave." - John Hollins.`
-]
+];
 
+/**
+ * Creates random quote generator
+ */
 function newQuote() {
     let randomNumber = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quoteGenerator').innerHTML = quotes[randomNumber];
 }
 
-// Invokes function on page load
-newQuote();
+/**
+ * Generates new quote on page load, and on click
+ */
+window.onload = function () {
+    newQuote();
+    document.getElementById("generate").addEventListener('click', newQuote);
+}
+
