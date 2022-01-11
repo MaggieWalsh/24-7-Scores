@@ -201,7 +201,7 @@ I wanted to create a website for fans of the English Premier League, where they 
       ```.col-lg-8 {
         display: grid; 
         grid-template-rows: 1fr 0.3fr 1fr;
-        }```
+        }
         
     ![Map](docs/map-twitter-overlap.png)
 
