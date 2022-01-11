@@ -193,9 +193,7 @@ I wanted to create a website for fans of the English Premier League, where they 
 
       * [JSHint - HTML Validator](https://jshint.com/)
     * ## Resolved Bugs
-      * On the Contact page there was a modal pop up to confirm the contact form worked. I changed this to a custom success page, but I forgot to remove the header classes so the browser was looking for a modal unnecessarily. Which resulted in the following error. I resolved it by deleting the unnecessary modal elements.
-
-        ![Modal error](docs/modal-error.png)
+      * I originally started this project with another [repository](https://github.com/MaggieWalsh/24-7_Scores). An error occured which reulted in me having to merge, and pull despite never intending to. The matter was unresolveable given the timeframe and my knowledge restrictions. I made the decision to begin again, with a new repository. I will leave the original unedited in order for it to be checked.
 
       * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
 
