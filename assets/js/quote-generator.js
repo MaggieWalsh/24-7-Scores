@@ -62,3 +62,5 @@ window.onload = function () {
     document.getElementById("generate").addEventListener('click', newQuote);
 }
 
+// https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/
+// Random quote generaot adapted to have eventlistener instead of onclick
