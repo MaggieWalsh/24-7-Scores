@@ -193,21 +193,17 @@ I wanted to create a website for fans of the English Premier League, where they 
 
       * [JSHint - HTML Validator](https://jshint.com/)
     * ## Resolved Bugs
-      * I originally started this project with another [repository](https://github.com/MaggieWalsh/24-7_Scores). An error occured which reulted in me having to merge, and pull despite never intending to. The matter was unresolveable given the timeframe and my knowledge restrictions. I made the decision to begin again, with a new repository. I will leave the original unedited in order for it to be checked.
+      * I originally started this project with another [repository](https://github.com/MaggieWalsh/24-7_Scores). An error occured which resulted in me having to merge, and pull despite never intending to. The matter was unresolveable given the timeframe and my knowledge restrictions. I made the decision to begin again, with a new repository. I will leave the original unedited in order for it to be checked.
 
       * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
 
-        ![white-space](docs/white-space.jpeg)
-
-        ![whitespace](docs/whitespace.jpeg)
-
-      * In the footer the links were the blue, it didn't suit the style of the rest of the website so I targeted the links in my css in order to change them to a more pleasing colour. 
-
-        The contrast between the footer color and the font was poor, I removed the muted text class to revert it to it's darker color.
-
-        ![links](docs/links.png)
-
-      * Initially the landing page didn't have the tagline 'Original Interior Design' I felt like it wasn't immediately clear what the purpose of the website was. I chose to add this tagline in order to make it clear.
+      * My map and Twitter feed were overlapping eachother. This resolved it 
+      ```.col-lg-8 {
+        display: grid; 
+        grid-template-rows: 1fr 0.3fr 1fr;
+        }```
+        
+        ![Map](docs/map-twitter-overlap.png)
 
       * As the hero image takes up the entire content above the fold, I was worried that users to the site might not realise that there was more content upon scrolling. This led to me looking for a scroll indicator that I could apply to the desktop version. I found that on another CI students page, Fiachra Holland, who I have credited in my code and further down the readme.
 
