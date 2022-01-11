@@ -79,6 +79,12 @@ img {
     height: auto;
 }
 
+/* Add hover https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+}
+
 p {
     color: #C29F5F;
     font-size: 12px;
@@ -100,47 +106,6 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background: #293951;
-}
-
-/* Quote Generator */
-.quote {
-    font-family: 'Roboto', sans-serif;
-    background-color: #2A3D5E;
-    color: #C29F5F;
-    font-weight: bold;
-    border: 3px solid #292F33;
-}
-
-button.btn.btn-secondary.mt-2.mb-3 {
-    font-family: 'Roboto', sans-serif;
-    color: #C29F5F;
-    font-weight: bold;
-    background-color: #292F33;
-}
-
-/* Club site badges */
-.club-sites {
-    background: #fff;
-    border: none;
-}
-
-/* Add hover https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
-img:hover {
-    transform: scale(1.5);
-    transition: .5s;
-}
-
-/* Add media query to reduce the size of the badges below a certain screen size */
-/* Map */
-#map {
-    height: 100%;
-}
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 /* Loader spinner https://www.w3schools.com/howto/howto_css_loader.asp */
@@ -166,6 +131,46 @@ body {
 
 .hide {
     display: none;
+}
+
+/* Quote Generator */
+.quote {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2A3D5E;
+    color: #C29F5F;
+    font-weight: bold;
+    border: 3px solid #292F33;
+}
+
+button.btn.btn-secondary.mt-2.mb-3 {
+    font-family: 'Roboto', sans-serif;
+    color: #C29F5F;
+    font-weight: bold;
+    background-color: #292F33;
+}
+
+/* Club site badges */
+.club-sites {
+    background: #fff;
+    border: none;
+}
+
+/* Map */
+#map {
+    height: 100%;
+}
+
+/* Fixes map from overflowing footer */
+.col-lg-8 {
+    display: grid;
+    grid-template-rows: 1fr 0.3fr 1fr;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Footer */
@@ -200,10 +205,6 @@ div.text-center.p-4 {
     color: #C29F5F;
 }
 
-.email-link {
-    color: #C29F5F;
-}
-
 .bg-light {
     background-color: #212E41 !important;
 }
@@ -229,10 +230,4 @@ div.text-center.p-4 {
         height: auto;
     }
 
-}
-
-/* Fixes map from overflowing footer */
-.col-lg-8 {
-    display: grid;
-    grid-template-rows: 1fr 0.3fr 1fr;
 }

@@ -73,11 +73,10 @@ I wanted to create a website for fans of the English Premier League, where they 
   * ## User Stories
     1. As a user visiting the site for the first time, I want to navigate the site intuitively.
     2. As a user, I want to know what information this site provides.
-    3. As a user, I want to be able to find out the cost of the services provided.
-    4. As a user, I want to be able to see the current league table.
-    5. As a user, I want to be able to keep up-to-date with football news on Twitter.
-    6. As a user, I want to find something with a bit of humour.
-    7. As a user, I want to be able to access your social media accounts.
+    3. As a user, I want to be able to see the current league table.
+    4. As a user, I want to be able to keep up-to-date with football news on Twitter.
+    5. As a user, I want to find something with a bit of humour.
+    6. As a user, I want to be able to access your social media accounts.
   * ## Wireframes
     * Wireframe available [here.](docs/desktop-wireframe.pdf)
   * ## Design
@@ -150,56 +149,49 @@ I wanted to create a website for fans of the English Premier League, where they 
     Testing for this website was done using the Google Chrome Browser, using Chrome Developer Tools to check the different screensizes. Testing was also done on an iPhone 8 using Safari, as sometimes Safari can cause issues with how the website renders. No such errors were found.
     * ## User Stories Testing
       1. As a user visiting the site for the first time, I want to navigate the site intuitively.
-         * A user can navigate to the landing page from any page in the website. Either via the navigation menu, or the logo. As is standard with most navigation these days.
-         * On the landing page there is a banner providing Covid-19 information and also a link to the call to action form on the contact page.
-      2. As a user, I want to know what services are provided, and what is involved in the process.
-         * A user can navigate to the services page in order to see what is involved int the interior design steps.
-         * There is further information regarding the paint service on the paint page.
-      3. As a user, I want to be able to find out the cost of the services provided.
-         * A user can find out the cost for the initial consultation by navigating to the services page.
-      4. As a user, I want to be able to see past projects, in order to know if this is the right company for me.
-         * A user can view past projects by navigating to the portfolio page, where there is a carousel of images of the companies most recent projects.
-      5. As a user, I want to be able to contact the company.
-         * A user can contact the company via the telephone numbers in the footer.
-         * A user can contact the company via the email address in the footer.
-         * A user can contact the company via the form on the contact page.
-      6. As a user, I want to know where your paint stockists are located.
-         * A user can find out the location of the paint stockists by navigating to the paint page and clicking on the stockist button, which will open a modal containing the stockist locations.
-      7. As a user, I want to be able to access your social media accounts.
-         * A user can access the comapnies social media links via the footer in any of the pages that they find themselves on.
+         * A user can navigate around the site with ease. All components work as they should.
+      2. As a user, I want to know what information this site provides.
+         * A user can immediately see that there are multiple components to the page, league standings, twitter feed, map, quote generator and links to Premier League club websites. There is also a short summary of the purpose of the site in the footer.
+      3. As a user, I want to be able to see the current League Table.
+         * A user can clearly see that the league table is the most prominent component of the website.
+      4. As a user, I want to be able to keep up-to-date with football news on Twitter.
+         * A user can view a live TWitter feed along the right-hand side of the site, on desktop. On mobile it is pushed to the bottom of the siye.
+      5. As a user, I want to find something with a bit of humour.
+         * A user can generate funny quotes from the Funny Quote Generator below the League Table
+      6. As a user, I want to be able to access your social media accounts.
+         * A user can access the companies social media links via the footer.
     * ## Manual Testing 
-      * Navigation - Repeated steps on all pages.
-        * Click on logo to confirm that it navigates to landing page.
-        * Click on all navigation links to verify that they direct to the indicated page.
-        * Verify that the current page the user is on, is highlighted as active in the menu.
-        * Verify that the navigation menu shifts to from [hamburger](docs/hamburger.png) on screens of 991px and above. 
-      * Landing page
-        * Verify that the [scroll](docs/no-scroll.png) prompt works only on screens 991px and above.
-        * Verify that the link to make an appointment directs the user to the contact page.
-      * Portfolio
-        * Verify that the image carousel is functional, and clicks through the images.
-        * Verify that images are confined to the carousel and not overflowing it.
-      * Paint
-        * Verify that the stockist button pops open a modal.
-        * Verify that the modal contains a table with stockist information. 
-        * Verify that modal closes when the 'X' button is selected, or the user clicks on the screen anywhere outside of the modal window.
-      * Contact
-        * Verify that all elements that are set to required are working.
-        * Verify that valid email address is needed with relevant '@' included.
-        * Verify that 'Submit' button directs user to a success page.
-      * Form success
-        * Verify that navigation elements work the same as all other pages.
-        * Verify that the page automatically redirects the user to the services page after 10 seconds, as indicated.
-      * Footer - Repeated steps on all pages.
-        * Verify that the social media links open in a new tab.
-        * Verify that the email link directs the user to a custom 404 error page when selected.
-        * Verify that the 404 error page 'Return home' link brings the user back to the landing page.
-        * Verify that the phone number shown is dialled when selected.
-        * Verify that the website hyperlink directs the user back to the landing page.
+      * Club Sites
+        * Club badges are visible.
+        * Each badge serves as a link to the respective clubs home website, which opens in a new tab.
+        * If error occurs with data loading, error message appears.
+        * Hover effect works on badges.
+        * Club Sites are removed on screen size 767px and smaller.
+      * League Table
+        * While data is loading, spinner appears.
+        * Data loads into table in the correct order.
+        * If error occurs with data loading, error message appears.
+        * Title attribute provides explanation for headings that are shortened
+      * Funny Quotes
+        * Quote is generated on page load.
+        * Quote is generated when 'New Quote' button is clicked.
+      * Map
+        * Loads correctly.
+        * Displays markers for location of stadium for each Premier League Team.
+        * When a marker is clicked an information window pops open to give the name of the stadium, and the club whose homeground it is.
+      * Twitter Feed
+        * Loads data.
+        * Is restricted to 3 tweets to keep the flow of the page.
+        * Clicking on a Tweet brings you to Twitter, which opens in a new tab.
+      * Footer
+        * Social icons open links in new tabs.
+        * 24/7-Scores.com link reloads page.
     * ## Additional Testing 
-      * [W3 - Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+      * [W3C - Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
-      * [W3C - HTML Validator](https://validator.w3.org/)
+      * [W3C - NU HTML Checker](https://validator.w3.org/nu/)
+
+      * [JSHint - HTML Validator](https://jshint.com/)
     * ## Resolved Bugs
       * On the Contact page there was a modal pop up to confirm the contact form worked. I changed this to a custom success page, but I forgot to remove the header classes so the browser was looking for a modal unnecessarily. Which resulted in the following error. I resolved it by deleting the unnecessary modal elements.
 
@@ -263,27 +255,14 @@ I wanted to create a website for fans of the English Premier League, where they 
           $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
           ```
 
-        \> Cloning into \`Spoon-Knife`\...
-
-        \> remote: Counting objects: 10, done.
-
-        \> remote: Compressing objects: 100% (8/8), done.
-
-        \> remove: Total 10 (delta 1), reused 10 (delta 1)
-
-        \> Unpacking objects: 100% (10/10), done.
-
   * ## Credits
-    * ## Imagery
-        * [Unsplash](https://unsplash.com)
     * ## Code
-      * Bootstrap was the base for the entire website in order to ensure it's responsivity.
+      * Bootstrap helped structure the website in order to ensure it's responsivity.
       * All code is my own unless explicitly stated in my code files in a comment.
-      * A special mention to Fiachra Holland for the code for the scroll indicator and the redirect function as mentioned in the comments in my code. Also for the basic structure for the README.md file.
       * Credit to [MDB](https://mdbootstrap.com/) for the footer that I adapted.
       * Credit to Stack Overflow for some solutions that I have commented in my code.
     * ## Acknowledgements
-      * A special thank you to my mentor Rohit Sharma.  
-      * Thanks to my peers on Slack, specifically those that responded in the peer review, and my mini feb team, for their support along the way.
+      * A very special thank you to my mentor Richard Wells.  
+      * Thanks to my peers in my Discord group, who reviewed my project and pointed out a bug that wasn't visible on any of my own tests.
 
 
