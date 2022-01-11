@@ -198,7 +198,8 @@ I wanted to create a website for fans of the English Premier League, where they 
       * I noticed stray ```, _``` in some places on my code. I eventually figured out that it was because of whitespace in my code. Which resolved once I deleted it.
 
       * My map and Twitter feed were overlapping eachother. This resolved it 
-      ```.col-lg-8 {
+      ```
+        .col-lg-8 {
         display: grid; 
         grid-template-rows: 1fr 0.3fr 1fr;
         }
