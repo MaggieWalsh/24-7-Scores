@@ -204,7 +204,7 @@ I wanted to create a website for fans of the English Premier League, where they 
         grid-template-rows: 1fr 0.3fr 1fr;
         }
         
-    ![Map](docs/map-twitter-overlap.png)
+     ![Map](docs/map-twitter-overlap.png)
 
       * The table was rendering strangely. In order to fix this I removed the fixed position which allowed the data to fit into the table correctly.
 
